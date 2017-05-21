@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @author zhouhuakang
  *
  */
-public class coin {
+public class CoinSum {
 	
 	public void dp(int totalCoinValue){
 		int[] singleCoinValue = {1,3,5};
@@ -34,7 +34,7 @@ public class coin {
 		Scanner scanner = new Scanner(System.in);
 		int totalCoinValue = scanner.nextInt();
 		System.out.println(totalCoinValue);
-		new coin().dp(totalCoinValue);
+		new CoinSum().dp(totalCoinValue);
 	}
 
 }
