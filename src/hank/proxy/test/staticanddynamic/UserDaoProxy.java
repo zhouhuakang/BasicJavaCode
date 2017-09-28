@@ -1,4 +1,4 @@
-package hank.proxy.test;
+package hank.proxy.test.staticanddynamic;
 
 public class UserDaoProxy implements IUserDao{
 
